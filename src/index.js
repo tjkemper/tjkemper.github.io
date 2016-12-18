@@ -15,6 +15,6 @@ angular
   .module('app', [techsModule, 'ui.router'])
   .config(routesConfig)
   .component('app', main)
-  .component('fountainHeader', header)
-  .component('fountainTitle', title)
-  .component('fountainFooter', footer);
+  .component('taylorHeader', header)
+  .component('taylorTitle', title)
+  .component('taylorFooter', footer);

@@ -7,5 +7,5 @@ export const techsModule = 'techs';
 
 angular
   .module(techsModule, [])
-  .component('fountainTech', tech)
-  .component('fountainTechs', techs);
+  .component('taylorTech', tech)
+  .component('taylorTechs', techs);
