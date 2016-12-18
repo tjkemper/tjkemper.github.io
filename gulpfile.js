@@ -31,7 +31,7 @@ function watch(done) {
 // GitHub Pages
 var ghPages = require('gulp-gh-pages');
 
-gulp.task('deploy', function() {
+gulp.task('deploy', gulp.series('default', function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({ branch : "master" }));
-});
+}));
