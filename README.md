@@ -12,3 +12,8 @@ Go to: `http://localhost:3000`
 ```
 npm run deploy
 ```
+
+## If you have issues
+```
+rm -rf .publish/
+```
