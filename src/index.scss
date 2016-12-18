@@ -38,10 +38,19 @@ a {
   font-size: 1.5rem;
   margin: 1rem;
 }
-.header-logo {
-  text-align: right;
+
+.header-social > a {
   margin: 1rem;
-  color: white;
+  display:inline;
+}
+
+.logo-text {
+  padding-right: 1rem;
+}
+
+// override Bootstrap Social
+.header-link.btn-social>:first-child{
+  line-height: 28px;
 }
 
 .title {
