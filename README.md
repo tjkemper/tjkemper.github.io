@@ -17,3 +17,6 @@ npm run deploy
 ```
 rm -rf .publish/
 ```
+
+## Thanks to
+https://github.com/shinnn/gulp-gh-pages
