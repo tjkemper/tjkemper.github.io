@@ -47,7 +47,6 @@ $navbar-height: 50px;
 */
 .footer {
   position: relative;
-//  bottom: 0;
   width: 100%;
   height: 100px;
   margin-top: -100px; /* negative value of footer height */
@@ -55,6 +54,15 @@ $navbar-height: 50px;
   background-color: #222;
   color: #fff;
   font-size: 3rem;
+}
+
+/*
+    Title
+*/
+.title-my-picture {
+  box-shadow: 8px 8px 10px #aaa;
+  border-radius: 30px;
+  margin-top: 2rem;
 }
 
 /*
