@@ -1,6 +1,11 @@
 /*
     Header
 */
+$navbar-height: 50px;
+.my-navbar {
+  height: $navbar-height;
+}
+
 .header-my-name {
   margin: 1rem;
   color: #fff;
@@ -31,6 +36,12 @@
   padding-left: 3rem;
 }
 
+@media (min-width: 768px) {
+  .tiny-social-nav {
+      display: none;
+  }
+}
+
 /*
     Footer
 */
@@ -44,4 +55,11 @@
   background-color: #222;
   color: #fff;
   font-size: 3rem;
+}
+
+/*
+    Misc
+*/
+.under-header {
+  margin-top: $navbar-height;
 }
