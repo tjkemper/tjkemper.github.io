@@ -1,6 +1,7 @@
 import angular from 'angular';
 
 import {techsModule} from './app/techs/index';
+import {aboutModule} from './app/about/index';
 import 'angular-ui-router';
 import 'angular-ui-bootstrap';
 import routesConfig from './routes';
@@ -13,7 +14,7 @@ import {footer} from './app/footer';
 import './index.scss';
 
 angular
-  .module('app', [techsModule, 'ui.router', 'ui.bootstrap'])
+  .module('app', [aboutModule, techsModule, 'ui.router', 'ui.bootstrap'])
   .config(routesConfig)
   .component('app', main)
   .component('taylorHeader', header)
