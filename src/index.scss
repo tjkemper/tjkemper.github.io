@@ -2,6 +2,7 @@
     Header
 */
 $navbar-height: 50px;
+$importantFont: ‘Courier New’, Courier, monospace;
 .my-navbar {
   height: $navbar-height;
 }
@@ -11,7 +12,7 @@ $navbar-height: 50px;
   color: #fff;
   float: left;
   font-size: 2rem;
-  font-family: ‘Courier New’, Courier, monospace;
+  font-family: $importantFont;
 
 }
 
@@ -64,6 +65,23 @@ $navbar-height: 50px;
   box-shadow: 8px 8px 10px #aaa;
   border-radius: 30px;
   margin-top: 2rem;
+}
+
+/*
+    Life
+*/
+.life-img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  //clip: rect(0px,60px,200px,0px);
+}
+
+.life-img + div {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: $importantFont;
 }
 
 /*
