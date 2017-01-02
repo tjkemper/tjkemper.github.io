@@ -97,20 +97,27 @@ $spacexColor: #181c1f;
 /*
     Code
 */
+$codeExampleHeight: 700px;
 .about-code {
   background-color: #fff;
   color: $spacexColor;
   //height:180px;
 }
 
-.code-thumbnail {
-  height: 400px;
+.code-example {
+  height: $codeExampleHeight;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 20px;
 }
 
-.code-img {
-//  object-fit: ;
-  height: 250px;
-  width:  250px;
+.code-description {
+  margin-bottom: 50px;
+}
+
+.tech-img {
+  height: 50px;
+  weight: 50px;
 }
 
 /*
